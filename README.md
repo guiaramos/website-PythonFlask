@@ -109,4 +109,4 @@ This is the list of the tech stack:
 [Flask-url]:http://flask.pocoo.org/
 [Datetime-url]:https://docs.python.org/3/library/datetime.html
 
-[product-screenshot]: static\img\product-img.png
+[product-screenshot]: static/img/product-img.png
