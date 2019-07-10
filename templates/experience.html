@@ -1,0 +1,33 @@
+{%extends "layout.html"%}
+{%block content%}
+<div class="experience-section">
+
+    <h3 class="heading">Experience</h3>
+    <div class="heading-underline"></div>
+
+    <div class="row narrow">
+
+        <div class="col-md-6">
+            <div class="card text-center">
+                <img class="card-img-top" src="{{url_for('static',filename='img/Allianz.png')}}" alt="">
+                <div class="card-body">
+                    <h4>Allianz Insurance</h4>
+                    <h5>Accounting Analyst, 2 mons.</h5>
+                    <p>In charge of international report of accounting information.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+                <div class="card text-center">
+                    <img class="card-img-top" src="{{url_for('static',filename='img/1200px-Tokio_Marine.png')}}" alt="">
+                    <div class="card-body">
+                        <h4>Tokio Marine Insurance</h4>
+                        <h5>Accounting Analyst, 1 year.</h5>
+                        <p>In charge of international and local report of accounting information.</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+{%endblock%}
